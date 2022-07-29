@@ -187,7 +187,7 @@ log labels标签的使用比较直观，直接在日志选择器（stream select
 {container=~".+"} | json | stream="stderr"
 ```
 
-关于查询可以参考我的另一篇文章： [Loki LogQL - 从小白到入门](./logQL%E7%AE%80%E4%BB%8B.md)
+关于查询可以参考我的另一篇文章： [LogQL - 从小白到入门](./intro-to-LogQL.md)
 
 <br>  
 
