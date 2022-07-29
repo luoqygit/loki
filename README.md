@@ -47,7 +47,7 @@ $ helm show values grafana/loki > loki-values.yaml
 ```
 然后编辑生成的loki-values.yaml文件，进行必要的调整。修改的内容主要包括：
 
-- 因为我是用于测试，不需要太大的存储空间，所以把存储容量设置为200MB。读者可以根据自己的需求自行调整。
+- 因为测试不需要太大的存储空间，所以把loki的存储容量设置为200MB。读者可以根据需求自行调整。
 ```
 persistence:
   enabled: false
